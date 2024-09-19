@@ -9,7 +9,8 @@ void main() {
   print("\tProgram Menghitung IPK Mahasiswa");
   print("==============================================");
 
-  print("Masukkan Jumlah Semester : ");
-  int jmlSmt = stdin.readLineSync() as int;
-  print(jmlSmt);
+  stdout.write("Masukkan Jumlah Semester : ");
+  int jmlSmt = int.parse(stdin.readLineSync()!);
+  print("Ini semester sementara = " + jml.toString());
+  
 }
